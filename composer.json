@@ -1,0 +1,14 @@
+{
+    "name": "fw/mvc_2",
+    "require": {
+        "monolog/monolog": "^3.2",
+        "phpmailer/phpmailer": "^6.6",
+        "vlucas/valitron": "^1.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "fw\\": "vendor/fw",
+            "app\\": "app"
+        }   
+    }
+}

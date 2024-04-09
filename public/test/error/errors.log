@@ -1,0 +1,20 @@
+[2022-11-21 19:05:14] Text error: Uncaught TypeError: ErrorHandler::exceptionHandler(): Argument #1 ($e) must be of type Exception, Error given in C:\xampp\htdocs\mvc_2\public\test\error\index.php:56
+Stack trace:
+#0 [internal function]: ErrorHandler->exceptionHandler(Object(Error))
+#1 {main}
+  thrown | File: C:\xampp\htdocs\mvc_2\public\test\error\index.php | Line: 56 
+==================================
+[2022-11-21 19:05:29] Text error: Uncaught TypeError: ErrorHandler::exceptionHandler(): Argument #1 ($e) must be of type Exception, Error given in C:\xampp\htdocs\mvc_2\public\test\error\index.php:56
+Stack trace:
+#0 [internal function]: ErrorHandler->exceptionHandler(Object(Error))
+#1 {main}
+  thrown | File: C:\xampp\htdocs\mvc_2\public\test\error\index.php | Line: 56 
+==================================
+[2022-11-21 19:05:37] Text error: Uncaught TypeError: ErrorHandler::exceptionHandler(): Argument #1 ($e) must be of type Exception, Error given in C:\xampp\htdocs\mvc_2\public\test\error\index.php:56
+Stack trace:
+#0 [internal function]: ErrorHandler->exceptionHandler(Object(Error))
+#1 {main}
+  thrown | File: C:\xampp\htdocs\mvc_2\public\test\error\index.php | Line: 56 
+==================================
+[2022-11-21 19:07:04] Text error: Call to undefined function testt() | File: C:\xampp\htdocs\mvc_2\public\test\error\index.php | Line: C:\xampp\htdocs\mvc_2\public\test\error\index.php 
+==================================

@@ -1,0 +1,5 @@
+AddDefaultCharset UTF-8
+
+RewriteEngine on
+
+RewriteRule ^(.*)$ /mvc_2/public/$1
