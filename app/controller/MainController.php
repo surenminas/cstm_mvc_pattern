@@ -40,7 +40,7 @@ class MainController extends AppController {
 
       
         $menu = $this->getMenu();
-        View::setMeta('Personal blog', 'blog', 'blog, post');
+        View::setMeta('Personal blog Home page', 'blog', 'blog, post');
         $this->set(compact('posts', 'menu', 'pagination', 'total'));
  
     }

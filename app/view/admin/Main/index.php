@@ -37,7 +37,7 @@
     <?php endif; ?>
   </div>
   <h1>ADMIN</h1>
-<code><?php echo __FILE__; ?></code>
+
   <!-- Content page -->
 
   

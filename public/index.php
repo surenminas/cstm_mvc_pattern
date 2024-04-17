@@ -6,6 +6,7 @@ $query = rtrim($_SERVER['QUERY_STRING'], '/');
 
 
 define("DEBUG", 1);
+require __DIR__ . '/../vendor/fw/libs/functions.php';
 define('WWW', __DIR__);
 define('CORE', dirname(__DIR__) . '/vendor/fw/core');
 define('ROOT', dirname(__DIR__));
@@ -14,10 +15,8 @@ define('APP', dirname(__DIR__) . '/app');
 define('CACHE', dirname(__DIR__) . '/tmp/cache');
 define('PASS', dirname(__DIR__) . '/public/index.php');
 define('LAYOUT', 'blog');
-define('ADMIN', 'http://localhost/mvc_2/admin');
+define('ADMIN', 'http://localhost/cstm_mvc_pattern/admin');
 
-
-require __DIR__ . '/../vendor/fw/libs/functions.php';
 require __DIR__ . '/../vendor/autoload.php';
 
 // spl_autoload_register(function($class){
@@ -32,6 +31,10 @@ new \fw\core\App;
 
 Router::add('^page/(?P<alias>[a-z-]+)$', ['controller' => 'Page', 'action' => 'index']);
 Router::add('^page/(?P<action>[a-z-]+)/(?P<alias>[a-z-]+)$', ['controller' => 'Page']);
+
+// About
+Router::add('^about/(?P<alias>[a-z-]+)$', ['controller' => 'About', 'action' => 'index']);
+Router::add('^about/(?P<action>[a-z-]+)/(?P<alias>[a-z-]+)$', ['controller' => 'About']);
 
 Router::add('^posts$', ['controller' => 'Posts', 'action' => 'view']);
 Router::add('^posts/(?P<action>[a-z-]+)$', ['controller' => 'Posts']);

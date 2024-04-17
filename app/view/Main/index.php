@@ -1,7 +1,7 @@
 <?php if(!empty($posts)): ?>
     <?php foreach($posts as $post): ?>
         <div class="content-grid-info">
-            <img src="/mvc_2/blog/images/post1.jpg" alt=""/>
+            <img src="/cstm_mvc_pattern/public/blog/images/post1.jpg" alt=""/>
             <div class="post-info">
                 <h4><a href="posts/single?p=<?php echo $post['id']; ?>"><?php echo $post['title']; ?></a></h4>
                 <p><?php echo $post['text']; ?></p>

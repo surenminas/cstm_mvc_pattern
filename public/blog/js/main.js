@@ -1,8 +1,6 @@
 $(document).ready(function() {
 
     $('#lang').change(function(){
-
-        console.log($(this));
-        window.location = '/mvc_2/language/change?lang=' + $(this).val();
+        window.location = '/cstm_mvc_pattern/language/change?lang=' + $(this).val();
     });
 });

@@ -1,4 +1,3 @@
-<code><?php echo __FILE__; ?></code>
 <div class="container">
 <div class="card" style="width: 18rem;">
   <div class="card-body">

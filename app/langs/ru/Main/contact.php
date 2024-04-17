@@ -1,5 +1,4 @@
 <?php 
-echo __FILE__;
 return [
     'contact_cont' => 'Контакт',
     'name_cont' => 'Имя',

@@ -2,4 +2,4 @@ AddDefaultCharset UTF-8
 
 RewriteEngine on
 
-RewriteRule ^(.*)$ /mvc_2/public/$1
+RewriteRule ^(.*)$ /cstm_mvc_pattern/public/$1

@@ -23,3 +23,22 @@ function h($str) {
 function __($key) {
     echo \fw\core\base\Lang::get($key);
 }
+
+function baseUrl($protocol = true, $host = true)
+{
+    if ($protocol) {
+        $protocol = 'http://';
+        if (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] != 'off') {
+            $protocol = 'https://';
+        }
+    } else $protocol = '';
+
+    if ($host) {
+        $host = $_SERVER['HTTP_HOST'];
+    } else $host = '';
+
+
+    $dir =  str_replace(basename($_SERVER['SCRIPT_NAME']), '', $_SERVER['SCRIPT_NAME']);
+
+    return $protocol . $host . $dir;
+}

@@ -39,7 +39,7 @@ class Router
                 if (!isset($route['prefix'])) {
                     $route['prefix'] = '';
                 } else {
-                    $route['prefix'] .= '\\';
+                    $route['prefix'] .= '/';
                 }
 
                 $route['controller'] = self::upperCamelCase($route['controller']);
@@ -64,6 +64,7 @@ class Router
         $url = self::removeQueryString($url);
         if (self::matchRoute($url)) {
             $controller = "app\controller\\" . self::$route['prefix'] . self::$route['controller'] . "Controller";
+            var_dump($controller);
             if (class_exists($controller)) {
                 $cObj = new $controller(self::$route);
                 $action = self::lowerCamelCase(self::$route['action'] . "Action");
