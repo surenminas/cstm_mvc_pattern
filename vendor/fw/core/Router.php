@@ -64,7 +64,6 @@ class Router
         $url = self::removeQueryString($url);
         if (self::matchRoute($url)) {
             $controller = "app\controller\\" . self::$route['prefix'] . self::$route['controller'] . "Controller";
-            var_dump($controller);
             if (class_exists($controller)) {
                 $cObj = new $controller(self::$route);
                 $action = self::lowerCamelCase(self::$route['action'] . "Action");
@@ -115,6 +114,8 @@ class Router
 
     protected static function removeQueryString($url)
     {
+        $url = str_replace("/cstm_mvc_pattern/", "", $url);
+
         if (!empty($url)) {
             $params = explode('&', $url, 2);
             if (false === strpos($params[0], '=')) {
