@@ -17,7 +17,6 @@ use Monolog\Handler\StreamHandler;
 class AboutController extends AppController {
 
     public function indexAction() {
-        var_dump('about controller');
         $about = "About";
         $this->set(compact('about'));
 
