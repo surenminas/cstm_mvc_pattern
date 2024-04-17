@@ -94,3 +94,53 @@ dd[2024-04-11 22:29:25] Text error: Page not found | File: C:\xampp\htdocs\cstm_
 ==================================
 [2024-04-17 18:28:22] Text error: Page not found | File: C:\xampp\htdocs\cstm_mvc_pattern\vendor\fw\core\Router.php | Line: 86 
 ==================================
+[2024-04-17 18:46:23] Text error: Page not found | File: C:\xampp\htdocs\cstm_mvc_pattern\vendor\fw\core\Router.php | Line: 86 
+==================================
+[2024-04-17 18:49:22] Text error: Page not found | File: C:\xampp\htdocs\cstm_mvc_pattern\vendor\fw\core\Router.php | Line: 86 
+==================================
+[2024-04-17 18:51:05] Text error: Page not found | File: C:\xampp\htdocs\cstm_mvc_pattern\vendor\fw\core\Router.php | Line: 86 
+==================================
+[2024-04-17 18:51:51] Text error: Method <b>app\controller\NController</b> not found | File: C:\xampp\htdocs\cstm_mvc_pattern\vendor\fw\core\Router.php | Line: 81 
+==================================
+[2024-04-17 19:30:22] Text error: Undefined variable $baseUrl | File: C:\xampp\htdocs\cstm_mvc_pattern\app\view\layout\blog.php | Line: 12 
+==================================
+[2024-04-17 19:31:33] Text error: Page not found | File: C:\xampp\htdocs\cstm_mvc_pattern\vendor\fw\core\Router.php | Line: 85 
+==================================
+[2024-04-17 19:33:17] Text error: Page not found | File: C:\xampp\htdocs\cstm_mvc_pattern\vendor\fw\core\Router.php | Line: 85 
+==================================
+[2024-04-17 19:37:08] Text error: Page not found | File: C:\xampp\htdocs\cstm_mvc_pattern\vendor\fw\core\Router.php | Line: 85 
+==================================
+[2024-04-17 19:37:26] Text error: Page not found | File: C:\xampp\htdocs\cstm_mvc_pattern\vendor\fw\core\Router.php | Line: 85 
+==================================
+[2024-04-17 19:38:46] Text error: Page not found | File: C:\xampp\htdocs\cstm_mvc_pattern\vendor\fw\core\Router.php | Line: 85 
+==================================
+[2024-04-17 19:47:53] Text error: Page not found | File: C:\xampp\htdocs\cstm_mvc_pattern\vendor\fw\core\Router.php | Line: 85 
+==================================
+[2024-04-17 19:47:55] Text error: Page not found | File: C:\xampp\htdocs\cstm_mvc_pattern\vendor\fw\core\Router.php | Line: 85 
+==================================
+[2024-04-17 19:48:24] Text error: Method <b>app\controller\PublicController</b> not found | File: C:\xampp\htdocs\cstm_mvc_pattern\vendor\fw\core\Router.php | Line: 80 
+==================================
+[2024-04-17 19:48:27] Text error: Page not found | File: C:\xampp\htdocs\cstm_mvc_pattern\vendor\fw\core\Router.php | Line: 85 
+==================================
+[2024-04-17 19:48:31] Text error: Page not found | File: C:\xampp\htdocs\cstm_mvc_pattern\vendor\fw\core\Router.php | Line: 85 
+==================================
+[2024-04-17 19:50:14] Text error: Page not found | File: C:\xampp\htdocs\cstm_mvc_pattern\vendor\fw\core\Router.php | Line: 85 
+==================================
+[2024-04-17 19:50:16] Text error: Page not found | File: C:\xampp\htdocs\cstm_mvc_pattern\vendor\fw\core\Router.php | Line: 85 
+==================================
+[2024-04-17 19:50:22] Text error: Page not found | File: C:\xampp\htdocs\cstm_mvc_pattern\vendor\fw\core\Router.php | Line: 85 
+==================================
+[2024-04-17 20:16:22] Text error: Page not found | File: C:\xampp\htdocs\cstm_mvc_pattern\vendor\fw\core\Router.php | Line: 85 
+==================================
+[2024-04-17 20:16:24] Text error: Page not found | File: C:\xampp\htdocs\cstm_mvc_pattern\vendor\fw\core\Router.php | Line: 85 
+==================================
+[2024-04-17 20:16:27] Text error: Page not found | File: C:\xampp\htdocs\cstm_mvc_pattern\vendor\fw\core\Router.php | Line: 85 
+==================================
+[2024-04-17 20:16:28] Text error: Page not found | File: C:\xampp\htdocs\cstm_mvc_pattern\vendor\fw\core\Router.php | Line: 85 
+==================================
+[2024-04-17 20:16:29] Text error: Page not found | File: C:\xampp\htdocs\cstm_mvc_pattern\vendor\fw\core\Router.php | Line: 85 
+==================================
+[2024-04-17 20:16:30] Text error: Page not found | File: C:\xampp\htdocs\cstm_mvc_pattern\vendor\fw\core\Router.php | Line: 85 
+==================================
+[2024-04-17 20:16:32] Text error: Page not found | File: C:\xampp\htdocs\cstm_mvc_pattern\vendor\fw\core\Router.php | Line: 85 
+==================================

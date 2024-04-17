@@ -1,16 +1,17 @@
 <?php
 use fw\core\Router;
 
+// $query = trim($_SERVER['REQUEST_URI'], '/');
 
-$query = rtrim($_SERVER['QUERY_STRING'], '/');
+$query = $_SERVER['REQUEST_URI'];
 
 
 define("DEBUG", 1);
-require __DIR__ . '/../vendor/fw/libs/functions.php';
+define('LIBS', dirname(__DIR__) . '/vendor/fw/libs');
+require LIBS . '/functions.php';
 define('WWW', __DIR__);
 define('CORE', dirname(__DIR__) . '/vendor/fw/core');
 define('ROOT', dirname(__DIR__));
-define('LIBS', dirname(__DIR__) . '/vendor/fw/libs');
 define('APP', dirname(__DIR__) . '/app');
 define('CACHE', dirname(__DIR__) . '/tmp/cache');
 define('PASS', dirname(__DIR__) . '/public/index.php');
@@ -18,6 +19,9 @@ define('LAYOUT', 'blog');
 define('ADMIN', 'http://localhost/cstm_mvc_pattern/admin');
 
 require __DIR__ . '/../vendor/autoload.php';
+
+debug(baseUrl());
+
 
 // spl_autoload_register(function($class){
 //     debug($class);
