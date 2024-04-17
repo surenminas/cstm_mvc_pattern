@@ -1,7 +1,7 @@
 
 <div class="row">
     <div class="col-md-6">
-        <form action="/mvc_2/user/signup" method="post">
+        <form action="/cstm_mvc_pattern/user/signup" method="post">
         <div class="mb-3 lg-5">
             <label class="form-label">Login</label>
             <input type="text" class="form-control" name="login" id="login" value="<?php echo isset($_SESSION['form_data']) ? h($_SESSION['form_data']['login']) : ''; ?>" aria-describedby="login" placeholder="Login">
@@ -9,7 +9,7 @@
         </div>
         <div class="mb-3">
             <label class="form-label">Password</label>
-            <input type="text" class="form-control" name="password" id="password" placeholder="Password">
+            <input type="password" class="form-control" name="password" id="password" placeholder="Password">
         </div>
         <div class="mb-3">
             <label class="form-label">Name</label>

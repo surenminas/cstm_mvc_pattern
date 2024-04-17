@@ -10,14 +10,14 @@
 
 	View::getMeta();
 	?>
-	<link href="/cstm_mvc_pattern/blog/css/bootstrap.css" rel='stylesheet' type='text/css' />
-	<link href="/cstm_mvc_pattern/blog/css/style.css" rel='stylesheet' type='text/css' />
+	<link href="<?php echo baseUrl()?>blog/css/bootstrap.css" rel='stylesheet' type='text/css' />
+	<link href="<?php echo baseUrl()?>blog/css/style.css" rel='stylesheet' type='text/css' />
 
 	<?php
 	$stylesheets = AppController::$customStylesheets;
 	if (!empty($stylesheets)) {
 		foreach ($stylesheets as $style) { ?>
-			<link href="/cstm_mvc_pattern/public/css/<?php echo $style; ?>" rel='stylesheet' type='text/css' />
+			<link href="<?php echo baseUrl()?>css/<?php echo $style; ?>" rel='stylesheet' type='text/css' />
 	<?php }
 	} ?>
 
@@ -30,8 +30,8 @@
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 	<!--end slider -->
 	<!--script-->
-	<script type="text/javascript" src="/cstm_mvc_pattern/blog/js/move-top.js"></script>
-	<script type="text/javascript" src="/cstm_mvc_pattern/blog/js/easing.js"></script>
+	<script type="text/javascript" src="<?php echo baseUrl()?>blog/js/move-top.js"></script>
+	<script type="text/javascript" src="<?php echo baseUrl()?>blog/js/easing.js"></script>
 	<!--/script-->
 	<script type="text/javascript">
 		jQuery(document).ready(function($) {
@@ -52,7 +52,7 @@
 	<div class="header">
 		<div class="container">
 			<div class="logo">
-				<a href="/cstm_mvc_pattern/"><img src="/cstm_mvc_pattern/blog/images/logo.jpg" title="" /></a>
+				<a href="/cstm_mvc_pattern/"><img src="<?php echo baseUrl()?>blog/images/logo.jpg" title="" /></a>
 			</div>
 			<!---start-top-nav---->
 			<div class="top-menu">
@@ -73,10 +73,8 @@
 					<?php else : ?>
 						<li><a href="/cstm_mvc_pattern/user/logout"><?php __('logout') ?></a></li>
 					<?php endif; ?>
-					<div class="clearfix"> </div>
 				</ul>
 			</div>
-			<div class="clearfix"></div>
 			<script>
 				$("span.menu").click(function() {
 					$(".top-menu ul").slideToggle("slow", function() {});
@@ -126,10 +124,10 @@
 	<!---->
 	<div class="footer">
 		<div class="container">
-			<p>Copyrights © <?php echo date('Y'); ?> Blog All rights reserved <a href="/cstm_mvc_pattern/">MVC Blog</a></p>
+			<p>Copyrights © <?php echo date('Y'); ?> Blog All rights reserved <a href="<?php echo baseUrl()?>">MVC Blog</a></p>
 		</div>
 	</div>
-	<script src="/cstm_mvc_pattern/blog/js/main.js"></script>
+	<script src="<?php echo baseUrl()?>blog/js/main.js"></script>
 
 	<?php
 	foreach ($scripts as $script) {
@@ -140,7 +138,7 @@
 
 	if (!empty($customScripts)) {
 		foreach ($customScripts as $value) { ?>
-			<script src="/cstm_mvc_pattern/public/js/<?php echo $value; ?>"></script>
+			<script src="<?php echo baseUrl()?>js/<?php echo $value; ?>"></script>
 	<?php	}
 	} ?>
 
