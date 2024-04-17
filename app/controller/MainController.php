@@ -15,8 +15,6 @@ use Monolog\Level;
 use Monolog\Logger;
 use Monolog\Handler\StreamHandler;
 
-use app\model\Posts;
-
 class MainController extends AppController {
 
     public function indexAction() {

@@ -84,3 +84,13 @@ dd[2024-04-11 22:29:25] Text error: Page not found | File: C:\xampp\htdocs\cstm_
 ==================================
 [2024-04-17 15:06:05] Text error: Method <b>app\controller\ContactController</b> not found | File: C:\xampp\htdocs\cstm_mvc_pattern\vendor\fw\core\Router.php | Line: 81 
 ==================================
+[2024-04-17 15:47:01] Text error: Page not found | File: C:\xampp\htdocs\cstm_mvc_pattern\vendor\fw\core\Router.php | Line: 86 
+==================================
+[2024-04-17 15:47:29] Text error: Page not found | File: C:\xampp\htdocs\cstm_mvc_pattern\vendor\fw\core\Router.php | Line: 86 
+==================================
+[2024-04-17 18:27:42] Text error: Page not found | File: C:\xampp\htdocs\cstm_mvc_pattern\vendor\fw\core\Router.php | Line: 86 
+==================================
+[2024-04-17 18:27:54] Text error: Page not found | File: C:\xampp\htdocs\cstm_mvc_pattern\vendor\fw\core\Router.php | Line: 86 
+==================================
+[2024-04-17 18:28:22] Text error: Page not found | File: C:\xampp\htdocs\cstm_mvc_pattern\vendor\fw\core\Router.php | Line: 86 
+==================================

@@ -23,17 +23,5 @@ class AboutController extends AppController {
 
     }
 
-    public function aboutAction() {
-        // $model = new Main;
-        if($this->isAjax()) {
-            $post = \R::findOne('posts', "id = {$_POST['id']}");
-            $this->loadView('test', compact('post'));
-            die;
-        }
-        $menu = $this->getMenu();
-        $this->set(compact('menu'));
-    }
-
-
 
 }

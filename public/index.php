@@ -36,6 +36,10 @@ Router::add('^page/(?P<action>[a-z-]+)/(?P<alias>[a-z-]+)$', ['controller' => 'P
 Router::add('^about/(?P<alias>[a-z-]+)$', ['controller' => 'About', 'action' => 'index']);
 Router::add('^about/(?P<action>[a-z-]+)/(?P<alias>[a-z-]+)$', ['controller' => 'About']);
 
+// Contact
+Router::add('^contact/(?P<alias>[a-z-]+)$', ['controller' => 'Contact', 'action' => 'index']);
+Router::add('^contact/(?P<action>[a-z-]+)/(?P<alias>[a-z-]+)$', ['controller' => 'Contact']);
+
 Router::add('^posts$', ['controller' => 'Posts', 'action' => 'view']);
 Router::add('^posts/(?P<action>[a-z-]+)$', ['controller' => 'Posts']);
 Router::add('^posts/(?P<alias>[a-z-]+)$', ['controller' => 'Posts', 'action' => 'view']);
