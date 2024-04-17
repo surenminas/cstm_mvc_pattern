@@ -37,7 +37,7 @@ class UserController extends AppController{
             $user = new User();
             if($user->login()) {
                 $_SESSION['success'] = 'you authorized successfully';
-                redirect("/cstm_mvc_pattern");
+                redirect();
             }else{
                 $_SESSION['error'] = 'Wrong login/password';
             }
